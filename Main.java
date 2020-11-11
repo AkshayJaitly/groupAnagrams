@@ -27,7 +27,6 @@ class Main {
   }
 
   public static List<List<String>> groupAnagrams2(String[] strs) {
-        List<List<String>> res = new ArrayList<>();
         Map<Integer, List<String>> map = new HashMap<>();
         for (String str: strs) {
             int bitmask = 0;
